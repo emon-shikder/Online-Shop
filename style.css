@@ -1,0 +1,81 @@
+.menu {
+  list-style: none;
+  font-size: 23px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.li {
+  color: #000000;
+  text-decoration: none;
+}
+
+.li:hover {
+  cursor: pointer;
+  color: tomato;
+}
+.btn-1:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  margin-right: 5px;
+}
+.search-btn {
+  padding: 8px 15px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.search-btn:hover {
+  background-color: #5000fe;
+}
+.Junior-Program {
+  color: #ffffff;
+  padding: 100px;
+  margin: 50px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Images/2.png");
+  background-size: cover;
+}
+.Teenager-Program {
+  color: #ffffff;
+  padding: 100px;
+  margin: 50px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Images/3.png");
+  background-size: cover;
+}
+.Professional-Program {
+  color: #ffffff;
+  padding: 100px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Images/4.png");
+  background-size: cover;
+}
+.btn-1 {
+  padding: 8px 15px;
+  background-color: tomato;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.element {
+  display: flex;
+  justify-content: center;
+}
+
